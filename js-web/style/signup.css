@@ -1,127 +1,20 @@
-:root{
-    --main-bg: #0D1232;
-    --bg-clr: #12183F;
-    --pink: #F23E79;
-    --bg-light: #191F4B;
-  }
+form{
   
-  *, *::before, *::after{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  margin-top: 50px;
+  align-items: center;
+  padding: 10px 10px 50px 50px;
+
+  /* justify-content: center; */
+  text-align: center;
   
-  body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    background: var(--main-bg);
-    margin-top: 80px;
-  }
+}
+
+input{
   
-  .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background:black;
-    width: 50%;
-    color: white;
-    margin: 20px auto;
-    padding: 30px 30px  ;
-    border-radius: 20px;
-    position: relative;
-  }
-  
-  .signin{
-    font-size: 1.75rem;
-  }
-  
-  .tabs{
-    margin-top: 3em;
-  }
-  
-  .tab__p{
-    width: 100%;
-    background:rgba(0, 0, 0, 0.701);
-    padding: 0.8rem 3rem;
-    border: 1px solid #00d7c3;
-    border-radius: 5px;
-    font-size: 1.125rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-  
-  .tab__p:hover{
-   background-color:#00d7c3 ;
-   color: black;
-   box-shadow: 0px 0px 25px #00d7c3;
-   transition: all 0.5s;
-  }
-  
-  form{
-    width: 70%;
-    margin: 5em auto;
-  }
-  
-  label{
-    font-size: 1.1rem;
-    margin-left: 0.6em;
-  }
-  
-  input{
-    width: 100%;
-    padding: 0.6em;
-    margin: 0.8em 0 2em 0;
-    outline: none;
-    background: #0F1436;
-    border: 2px solid #181E48;
-    box-sizing: border-box;
-    border-radius: 5px;
-    color:#00d7c3;
-    font-size: 1.125rem;
-  }
-  
-  .forgot{
-    float: right;
-    color:#00d7c3;
-    font-size: 0.90rem;
-    font-weight: 600;
-    cursor: pointer;
-    padding-top: 0.3em;
-  }
-  
-  .btn{
-    outline: none;
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    padding: 0.8em;
-    font-size: 1.125rem;
-    background: #00d7c3;
-    color: white;
-  }
-  
-  .no-account{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    background:rgba(0, 0, 0, 0.405);
-    padding: 1.5em;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-  }
-  
-  .signup{
-    border: none;
-    border-radius: 5px;
-    background: #00d7c3;
-    padding: 0.8em 1em;
-    font-size: 1rem;
-    margin-left: 1em;
-    color: white;
-  }
+  width: 50%;
+  padding: 12px 20px ;
+  /* margin: 8px 0; */
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}

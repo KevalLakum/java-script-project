@@ -10,30 +10,14 @@
 </head>
 <body>
     <div id="nav"></div>
-    <div class="container">
-        <div class="signin">Sign in</div>
-        <div class="tabs">
-          <span class="tab__p">Personal</span>
-          
-        </div>
-        <form action="#">
-          <div class="email">
-            <label for="email">Email Address</label>
-            <br>
-            <input type="text" placeholder="Enter your email">
-          </div>
-          <div class="password">
-            <label for="password">Password</label>
-            <a class="forgot">Forgot your password?</a>
-            <input type="text" placeholder="Enter your password">
-          </div>
-          <button class="btn">Sign In</button>
-        </form>
-        <div class="no-account">
-          <span>Don't have an account yet?</span>
-          <button class="signup">Sign Up</button>
-        </div>
-      </div>
+    <form>
+        <input type="text"  id="name" placeholder="name" required/>
+        <input type="email" name="" id="email" placeholder="email" required>
+        <input type="text"  id="password" placeholder="password" required/>
+        <input type="text"  id="cpassword" placeholder="cpassword" required/>
+        <input type="number" id="number" placeholder="number" required/>
+        <input type="submit"  value="create account">
+      </form>
     
 </body>
 <script src="../script/signup.js" type="module"></script>
